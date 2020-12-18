@@ -1,0 +1,115 @@
+/* *{
+    margin:-24px;
+    padding:0;
+} */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+
+
+}
+
+.outer{
+    /* margin-top: -30px; */
+    /* background: red; */
+    /* height:100vh; */
+}
+
+.joinOuterContainer{
+    /* background: pink; */
+    /* background: red; */
+    margin:auto;
+    /* height:100vh; */
+    max-width: 500px;
+    /* margin-top: -20px; */
+    /* border-radius: 10px; */
+  
+
+
+}
+
+.joinInnerContainer{
+    margin:auto;
+    background: rgb(116, 179, 231);
+    padding:2rem;
+    margin-top: 3rem;
+    /* height: 100vh; */
+
+    border-radius: 10px 10px 0 0 ;
+   
+   
+    /* padding: 1rem; */
+    /* margin:1rem; */
+}
+
+.heading{
+    /* margin-top: 3rem; */
+    text-align: center;
+    margin-bottom: 2rem;
+    color:white;
+    /* border-bottom: 0.5px solid rgb(128, 54, 54); */
+}
+.joinInput{
+    display: block;
+    width:80%;
+    margin: auto;
+    padding: .6rem;
+border-radius: 5px;
+margin-bottom: 1rem;
+font-size: 16px;
+/* color:red; */
+
+border:none;
+
+
+}
+
+ [type="text"]{
+
+    font-weight: 600;
+ }
+
+.button{
+    display: block;
+    width: 70%;
+    margin: auto;
+    padding:0.8rem;
+    border-radius: 7px;
+    text-decoration: none;
+    background: rgb(42, 64, 122);
+    font-size: 16px;
+
+    color:white;
+    border:none;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 0.5rem;
+
+}
+
+.button:hover{
+    opacity:0.9;
+    cursor: pointer;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+    .outer{
+        margin-top: -48px;
+        /* background: red; */
+        height:100vh;
+        /* padding-top: 2rem; */
+    }
+    .joinInnerContainer{
+    
+        height: 88.5vh;
+        border-radius: 0 ;
+    
+       
+       
+    }
+    .heading{
+       margin-top: 5rem;
+    }
+   
+  }
